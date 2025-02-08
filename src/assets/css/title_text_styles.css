@@ -1,0 +1,116 @@
+@layer components {
+	/* 24PX */
+	.title-24PX-semibold {
+		font-family: var(--font-poppins);
+		font-size: 24px;
+		font-weight: 600;
+		line-height: 32px;
+	}
+
+	.title-24PX-medium {
+		font-family: var(--font-poppins);
+		font-size: 24px;
+		font-weight: 500;
+		line-height: 32px;
+	}
+
+	.title-24PX-regular {
+		font-family: var(--font-poppins);
+		font-size: 24px;
+		font-weight: 400;
+		line-height: 32px;
+	}
+	/* 24PX */
+
+	/* 20PX */
+	.title-20PX-semibold {
+		font-family: var(--font-poppins);
+		font-size: 20px;
+		font-weight: 600;
+		line-height: 28px;
+	}
+
+	.title-20PX-medium {
+		font-family: var(--font-poppins);
+		font-size: 20px;
+		font-weight: 500;
+		line-height: 28px;
+	}
+
+	.title-20PX-regular {
+		font-family: var(--font-poppins);
+		font-size: 20px;
+		font-weight: 400;
+		line-height: 26px;
+	}
+	/* 20PX */
+
+	/* 16PX */
+	.title-16PX-semibold {
+		font-family: var(--font-poppins);
+		font-size: 16px;
+		font-weight: 600;
+		line-height: 20px;
+	}
+
+	.title-16PX-medium {
+		font-family: var(--font-poppins);
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 24px;
+	}
+
+	.title-16PX-regular {
+		font-family: var(--font-poppins);
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 24px;
+	}
+	/* 16PX */
+
+	/* 14PX */
+	.title-14PX-semibold {
+		font-family: var(--font-poppins);
+		font-size: 14px;
+		font-weight: 600;
+		line-height: 21px;
+	}
+
+	.title-14PX-medium {
+		font-family: var(--font-poppins);
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 21px;
+	}
+
+	.title-14PX-regular {
+		font-family: var(--font-poppins);
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 21px;
+	}
+	/* 14PX */
+
+	/* 12PX */
+	.title-12PX-semibold {
+		font-family: var(--font-poppins);
+		font-size: 12px;
+		font-weight: 600;
+		line-height: 18px;
+	}
+
+	.title-12PX-medium {
+		font-family: var(--font-poppins);
+		font-size: 12px;
+		font-weight: 500;
+		line-height: 18px;
+	}
+
+	.title-12PX-regular {
+		font-family: var(--font-poppins);
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 18px;
+	}
+	/* 12PX */
+}

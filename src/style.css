@@ -1,6 +1,23 @@
 @import 'tailwindcss';
+@import '@/assets/css/heading_text_styles.css';
+@import '@/assets/css/title_text_styles.css';
 
 @theme {
 	--font-poppins: Poppins, sans-serif;
 	--font-inter: Inter, sans-serif;
+
+	--color-primary: '#FFFFFF';
+	--color-primary-1: '#363738';
+	--color-secondary: '#F5F5F5';
+	--color-secondary-1: '#FEFAF1';
+	--color-secondary-2: '#DB4444';
+	--color-BG: '#FFFFFF';
+	--color-text: '#FAFAFA';
+	--color-text-1: '#7D8184';
+	--color-text-2: '#000000';
+	--color-button: '#000000';
+	--color-button-1: '#00FF66';
+	--color-button-2: '#DB4444';
+	--color-hover-button-1: '#E07575';
+	--color-hover-button-2: '#A0BCE0';
 }
