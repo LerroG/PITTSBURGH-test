@@ -23,14 +23,14 @@ const locales = [
 	<header class="w-full">
 		<div class="flex justify-center items-center bg-black h-12 w-full">
 			<div class="flex justify-between w-[860px]">
-				<div class="text-[#fafafa]">
-					<span class="text-[14px] mr-3"
+				<div class="text-text">
+					<span class="title-14PX-regular mr-3"
 						>Summer Sale For All Swim Suits And Free Express Delivery - OFF
 						50%!</span
 					>
-					<span class="font-semibold underline">ShopNow</span>
+					<span class="title-14PX-semibold underline">ShopNow</span>
 				</div>
-				<div class="text-[#fafafa]">
+				<div class="text-text">
 					<select id="language" name="language">
 						<option
 							class="text-black"
@@ -46,31 +46,24 @@ const locales = [
 		</div>
 
 		<div class="flex justify-center h-24 border-b border-black/30">
-			<nav class="h-full w-[1170px] pt-10 flex items-start justify-between">
-				<RouterLink
-					class="flex h-10 items-end font-bold font-inter text-2xl"
-					to="/"
-				>
+			<nav
+				class="h-full w-[1170px] text-text-2 pt-10 flex items-start justify-between"
+			>
+				<RouterLink class="flex h-10 items-end heading-24PX-bold" to="/">
 					Exclusive
 				</RouterLink>
 
-				<div class="flex gap-12 h-10 items-end">
-					<RouterLink class="underline text-[16px]" to="/"> Home </RouterLink>
-					<RouterLink class="underline text-[16px]" to="/contact">
-						Contact
-					</RouterLink>
-					<RouterLink class="underline text-[16px]" to="/about">
-						About
-					</RouterLink>
-					<RouterLink class="underline text-[16px]" to="/signup">
-						Sign up
-					</RouterLink>
+				<div class="flex gap-12 h-10 items-end title-16PX-regular">
+					<RouterLink class="underline" to="/"> Home </RouterLink>
+					<RouterLink to="/contact"> Contact </RouterLink>
+					<RouterLink to="/about"> About </RouterLink>
+					<RouterLink to="/signup"> Sign up </RouterLink>
 				</div>
 
 				<div class="flex items-center">
 					<div class="relative mr-6">
 						<input
-							class="font-poppins text-[12px] pl-5 pr-4 h-10 w-60 bg-gray-100 rounded-lg focus:outline-1 focus:outline-gray-600"
+							class="title-14PX-regular text-text-2/50 pl-5 pr-4 h-10 w-60 bg-gray-100 rounded-lg focus:outline-1 focus:outline-gray-600"
 							placeholder="What are you looking for?"
 							type="text"
 						/>
